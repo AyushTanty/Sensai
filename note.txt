@@ -14,7 +14,21 @@ import alies no
 
 //to run
 npm run dev
-//to install shadcn in nxt js which gives prebuild component
+//to install shadcn in nxt js which gives prebuild component like bootstrap
 npx shadcn@latest init
 base color : nutral
 css variables yes
+//add button component
+npx shadcn@latest add button
+npx shadcn@latest add accordion badge alert-dialog card dialog 
+dropdown-menu input label progress radio-group select sonner
+tabs textarea
+
+use lagacy period app
+
+//dark mode
+npm install next-themes
+
+copy past theme provider txs file to theme provider.jsx component romove readline
+
+layout.js childern to wrap with component from copy paste
