@@ -1,0 +1,16 @@
+to create nextjs app 
+//npx create-next-app@latest
+
+//project name . for current folder folder should empty
+//it is intilize app
+typescript no
+eslint yes
+react compiler no
+tailwind css yes
+your code inside src/directory no
+app router yes
+turbopack yes
+import alies no
+
+//to run
+npm run dev
