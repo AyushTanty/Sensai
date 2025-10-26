@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/ui/theme-provider";
+import Header from "@/components/header.jsx"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,10 +31,16 @@ export default function RootLayout({ children }) {
             disableTransitionOnChange
           >
             {/* header */}
+            <Header />
             <main className="min-h-screen">
                 {children}
             </main>
             {/* footer */}
+            <footer className="bg-muted/50 py-12">
+              <div className="container mx-auto px-4 text-center text-gray-200 ">
+                <p>@2025 All Writes Reserved.</p>
+              </div>
+            </footer>
           </ThemeProvider>
       </body>
     </html>
