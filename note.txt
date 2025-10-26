@@ -32,3 +32,9 @@ npm install next-themes
 copy past theme provider txs file to theme provider.jsx component romove readline
 
 layout.js childern to wrap with component from copy paste
+
+//user authentication
+clerk website is used
+npm install @clerk/nextjs
+sign in and use configure for modify sign in profile featues
+provides sign in authentication and profile
