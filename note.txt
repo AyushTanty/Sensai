@@ -14,3 +14,7 @@ import alies no
 
 //to run
 npm run dev
+//to install shadcn in nxt js which gives prebuild component
+npx shadcn@latest init
+base color : nutral
+css variables yes
